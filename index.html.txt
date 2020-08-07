@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+<head style="background-color:rad;">
+<title>secode project</title>
+<meta charset="utf-8">
+<style>
+blockquote{ 
+padding:10px; margin:10px; background:#DDD;
+}
+div{
+background:#f8f8f8; padding:20px; margin30px;
+}
+caption{
+color:#ff0000; font-size:20px;
+}
+table td{
+text-align:center;
+border-bottom-color:#ffa500;
+border-left-color:#0000ff;
+border-right-color:#ff0000;
+border-top-color:yellow;
+ border :2px solid#ee82ee;
+ padding:10px;
+}
+thead td{padding:10px;background:#686868; color:#fff; solid:#ff0000; border :2px solid#ff0000; }
+tfoot td {padding:10px;background:#404040;color:#fff; border :2px solid#3cb371;}
+fieldset{padding:10px; margin:10px; background:#DDD;}
+legend{padding:10px; margin:10px; background:#fff; color:#ffa500; border :2px solid#DDD}
+
+iframe {
+width:1000px;
+height:1000px;
+
+}
+p{text-align:center; font-size:20px;}
+.text {  font-size:50px; color:#ff0000;}
+.text1{ font-size:30px; color:#0000ff; }
+.text2{ font-size:50px; color:#ffa500; }
+.text3{ font-size:20px; color:#3cb371; }
+.text4{ font-size:50px; color:#DDD; }
+.text5{ font-size:30px; color:#3cb371; }
+.text6{ font-size:30px; color:#6a5acd;}
+.text7{ font-size:50px; color:#ee82ee;}
+hr{
+border:2px solid#EEE;
+}
+
+input{ 
+margin-bottom:10px
+}
+
+textarea{
+padding:8px;
+width:300px;
+height:200px;
+}
+colgroup{
+border :2px solid#3cb371;
+}
+
+input[type="text"],input[type="password"],input[type="e-mail"]{ display:block;}
+</style>
+<body style=" background:#404040;">
+<div>
+ <h1 style="text-align:center">Someone Special Quotes </h1>
+<blockquote> 
+ <del>lt's hard when you miss people.</del><ins> But you know if you miss them, that means you're lucky</ins>.
+ It means you had someone special in your life, someone worth missing<br>
+ <q> Nikki Schiefelbein</q>
+ </blockquote>
+ <blockquote>And then she remembered the stranger. She had met him on an April afternoon. <br>
+ In his presence she had felt feelings that she had never felt before.<br> 
+ The stranger had touched the innermost parts of her heart!<mark> He had done it by just his words.</mark><br>
+ And his presence had made her feel as if she was in a spell! <mark>In 15<sup>th </sup>century, in the 19<sup>th </sup>century”</mark>
+ <br>
+ <br>
+ <q> Avijeet Das</q>
+ </blockquote>
+</div>
+<br>
+<div>
+ <table border :2px solid#ffa500; width="1000px;">
+ <caption>this is a table</caption>
+<thead>
+<tr>
+ <td>new team</td>
+ <td>simon</td>
+ <td>mariam</td>
+ <td>ghade</td>
+ <td>mona</td>
+ <td>areg</td>
+</tr>
+</thead>
+<tbody style="background:#ffa500" "border :2px solid#ee82ee;">
+<tr>
+ <td>working with</td>
+ <td>frond-end developer</td> 
+ <td>back-end developer</td>	
+ <td>front-end developer</td>	
+ <td>front-end developer</td>	
+ <td>back-end developer</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+ <td>specification</td>
+ <td>vue.js</td>
+ <td>python</td>
+ <td>html&&css</td>
+ <td>html&&css</td>
+ <td> php</td>
+</tr>
+</tfoot>
+</div>
+</table>
+</br>
+<table border="1" solid #ffa500; width="1000px" >
+<caption>twbe-team sections</caption>
+<colgroup>
+<col span="2" style="background:#DDD;">
+<col span="4" style="background:#ffa500;">
+</colgroup>
+<thead>
+<tr>
+<td colspan="3">programming</td>
+<td colspan="3">web design</td>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td>php</td>
+<td colspan="2">mySQL</td>
+<td>html</td>
+<td>css</td>
+<td>jQuery</td>
+</tr>
+</tfoot>
+<div>
+</table>
+<br><br>
+<p>
+<span class="text" >c</span>
+<span class="text1">o</span>
+<span class="text2">m</span>
+<span class="text3">p</span>
+<span class="text4">i</span>
+<span class="text5">l</span>
+<span class="text6">e</span>
+<span class="text7">r</span>
+</p>
+<form>
+<div>
+<fieldset>
+<legend>persnol inforamtion</legend>
+
+<label>usename</label>
+<input type="text" name="usename" placeholder="type your name...."> 
+<label>password</label>
+<br>
+<input type="passwor" placeholder=" enter the password">
+<br>
+<label>e-mail</label>
+<br>
+<input type="text" name"e-mail" placeholder="enter the e-mail">
+<input type="checkbox">
+<label>remember me</label>
+<br>
+<input type ="submit" value="sign up">
+</fieldset>
+<fieldset>
+<legend> others inforamtion</legend>
+<label>gender</label>
+<br>
+<input type="radio" name="type" value="male">male</br>
+<input type="radio"  name="type"  value="famale">famale</br>
+<hr>
+<label> browser</label>
+<br>
+<input type="radio" name="browser" value="huawei">chrome</br>
+<input type="radio" name="browser" value="huawei">firefox</br>
+<input type="radio" name="browser" value="huawei">safari</br>
+<hr>
+<label>profile imge</label>
+<br>
+<input type ="file">
+<hr>
+<label> leave a message for us</label>
+<br>
+<textarea rows="8"></textarea>
+</fieldset>
+<fieldset>
+<legend>deal with inforamtion</legend>
+<select name="time">
+<option disabled>now</option>
+<option>tomorrow</option>
+<option> afternoon</option>
+</select>
+<input type="button" name="send info" value="send info" onclick="send info">
+<input type ="reset" value="delete info" onclick="delete info">
+</fieldset>
+</div>
+</form>
+<br>
+<div>
+ <iframe name="stack_overflow" src="https://stackoverflow.com"width="1000px" height="500px"></iframe>
+</div>
+<br>
+<div style="background:#DDD">
+ <p> An example for a div code</p>
+ &nbsp;&nbsp; &nbsp; &nbsp;&lt;div class="num_div"&gt;
+ <br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type the here
+ <br>
+ &nbsp;&nbsp;&lt;/div&gt;
+</div>
+ <br>
+ <div style="background:#DDD" >
+ <p>copyright&copy;for compiler team.</p>
+</div>
+</body>
+</html>

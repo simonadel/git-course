@@ -1,0 +1,118 @@
+*{ 
+transition-timing-function: linear; 
+}
+.text{
+background:black;
+color:#ee82ee;
+margin:-20px -20px 0 -20px -20px;
+position:fixed;
+width:100%;
+float:right;
+}
+.text1 {
+font-size:20px;
+background:#ee82ee;
+background-attachment:fixed;
+float:left;
+padding:0;margin:0;list-style:none;}
+
+ul{padding:0;margin:0;list-style:none;}
+ul li{display:inline-block;padding:10px;}
+
+a:link {
+ 
+text-decoration: none;}
+
+.si{
+	margin-left:30px;
+    padding-left:20px;
+	padding-top:50px;
+
+}
+.si p{
+	background:black;
+	color:#fff;
+	font-weight:bold;
+    padding:10px;
+	position:static;
+}
+#about{background:red;position:fixed;top:40px;left:-90px;font-weight:bold;padding:20px;width:80px;margin:20px}
+#Blog{background:black;position:fixed;top:100px;left:-90px;font-weight:bold;padding:20px;width:80px;margin:20px}
+#projects{background:blue;position:fixed;top:160px;left:-90px;font-weight:bold;padding:20px;width:80px;margin:20px}
+.command{
+background-image:url('3856.jpg');height:250px;
+margin:30px auto;padding:30px;
+background-attachment:fixed;
+}
+p.par{
+	text-align:left;padding:20px;margin:60px;
+	font-size:20px;background-color:#545053;height:30px;
+	color:#fff;text-transform:uppercase;background-position:50%50%
+}
+p.parag{
+	text-align:left;padding:20px;margin:-20px;
+	font-size:20px;background-color:rgba(255,99,71,0.5);
+height:50px;text-transform:normal;background-position:50%50%
+}
+.parag:hover{
+	visibility:hidden;
+}
+
+div.code{
+	background-image:url('sim1.jpg');
+	margin:30px auto;padding:80px;width:1200px;
+background-attachment:fixed;height:400px
+
+}
+div.grand{
+	background-color:rgba(255,99,71,0.5);
+	margin:-15px auto;padding:60px;width:1100px;
+background-attachment:fixed;height:350px
+}
+.parent div{margin-top:10px;padding-top:-10px;
+text-align:left;
+
+}
+.code p:hover~p {
+	background-color:#DDD;
+}
+
+.child1{background:#a91378;
+height:50px;
+}
+.child{
+	background:#8ad87f;
+	height:50px;
+	
+}
+.min{
+	background-image:url('image.jpg');
+	height:200px;
+	margin:10px;
+	padding:10px;
+}
+.min p{
+	background-color:rgba(0,255,255,0.3);
+	margin:30px;padding:20px;
+background-attachment:fixed;height:60px;
+}
+.min p:first-letter{
+	background:#ee82ee;
+	font-size:20px;
+	padding:0 10px;
+	
+}
+.min p:first-line{
+	background:#DDD;
+	padding:0 10px;
+	
+}
+#about:hover {
+	left:0;
+}
+#Blog:hover {
+	left:0;
+}
+#projects:hover {
+	left:0;
+}

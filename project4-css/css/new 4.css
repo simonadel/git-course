@@ -1,0 +1,100 @@
+div.text{
+background:black;
+font-size:20px;
+width:100%;
+position:fixed;
+text-align:right;
+}
+
+.text1 {
+font-size:20px;
+background:#ee82ee;
+text-align:left;
+background-attachment:fixed;
+float:left;
+}
+ul{
+padding:0;
+margin:0;
+list-style:none;
+ }
+ul li{
+display:inline-block;
+padding:10px;
+}
+
+img{
+padding:20px;
+margin;20px;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color:lightgreen; 
+
+}
+.text1:hover a{background-color:#ee82ee}
+
+a:hover{
+ background-color:lightgreen; 
+}
+
+
+div{display:inline-block;}
+
+.text5{
+	border :2px solid#3cb371;
+}
+.one{
+	width:300px;height:300px;text-transform:capitalize;
+}
+.tow{
+	width:300px;height:300px;
+}
+.thery{
+	width:300px;height:300px;
+}
+.command{
+background-image:url('3856.jpg');height:250px;
+margin:10px auto;padding:20px;width:100%;
+background-attachment:fixed;
+}
+p.par{
+	text-align:left;padding:20px;margin:60px;
+	font-size:20px;background-color:#545053;height:30px;
+	color:#fff;text-transform:uppercase;background-position:50%50%
+}
+p{
+	text-transform:capitalize;text-align:center;
+}
+h2{
+	text-transform:capitalize;text-align:center
+	
+}
+img{
+	padding:20px
+	}
+.code{
+	background-image:url('sim1.jpg');height:300px;
+	margin:30px auto;padding:30px;width:1200px;
+	background-attachment:fixed;height:250px
+}
+p.parag{
+	text-align:center;padding:20px;margin:20px;
+	font-size:20px;background-color:rgba(255,99,71,0.5);
+	height:40px;text-transform:normal;background-position:50%50%
+}
+p.para{
+	text-align:center;padding:20px;
+	margin:20px;font-size:20px;
+background-color:rgba(0,255,255,0.3);
+height:40px;text-transform:normal;
+background-position:50%50%;direction:rtl;
+}
+
+.or:hover {
+		display:none;
+}

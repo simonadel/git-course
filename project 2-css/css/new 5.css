@@ -1,13 +1,11 @@
-*{ 
-transition-timing-function: linear; 
-}
 .text{
 background:black;
-color:#ee82ee;
+color:#fff;
 margin:-20px -20px 0 -20px -20px;
 position:fixed;
 width:100%;
-float:right;
+display:block;
+text-align:right;
 }
 .text1 {
 font-size:20px;
@@ -16,60 +14,99 @@ background-attachment:fixed;
 float:left;
 padding:0;margin:0;list-style:none;}
 
-ul{padding:0;margin:0;list-style:none;}
-ul li{display:inline-block;padding:10px;}
+ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	}
+	
+.text ul li{
+	display:inline-block;
+    padding:10px;
+}
 
 a:link {
- 
-text-decoration: none;}
+text-decoration: none;
+}
 
 .si{
-	margin-left:30px;
-    padding-left:20px;
+	margin-left:20px;
+    padding-left:30px;
 	padding-top:50px;
-
+	
 }
+
 .si p{
 	background:black;
 	color:#fff;
 	font-weight:bold;
     padding:10px;
-	position:static;
+	position:sticky;
+	top:35px;
 }
-#about{background:red;position:fixed;top:40px;left:-90px;font-weight:bold;padding:20px;width:80px;margin:20px}
-#Blog{background:black;position:fixed;top:100px;left:-90px;font-weight:bold;padding:20px;width:80px;margin:20px}
-#projects{background:blue;position:fixed;top:160px;left:-90px;font-weight:bold;padding:20px;width:80px;margin:20px}
+#about{background:red;position:fixed;top:40px;left:-90px;font-weight:bold;padding:20px;width:80px;margin:20px;color:#fff}
+#Blog{background:black;position:fixed;top:100px;left:-90px;font-weight:bold;padding:20px;width:80px;margin:20px;color:#fff}
+#projects{background:blue;position:fixed;top:160px;left:-90px;font-weight:bold;padding:20px;width:80px;margin:20px;color:#fff}
 .command{
-background-image:url('3856.jpg');height:250px;
-margin:30px auto;padding:30px;
+background-image:url('3856.jpg');
+height:250px;
+margin:30px auto;
+padding:30px;
 background-attachment:fixed;
 }
 p.par{
-	text-align:left;padding:20px;margin:60px;
-	font-size:20px;background-color:#545053;height:30px;
-	color:#fff;text-transform:uppercase;background-position:50%50%
+	text-align:left;
+	padding:20px;
+	margin:40px;
+	font-size:20px;
+	background-color:#545053;
+	height:50px;
+	color:#fff;
+	text-transform:capitalize;
+	background-position:50%50%
 }
-p.parag{
-	text-align:left;padding:20px;margin:-20px;
-	font-size:20px;background-color:rgba(255,99,71,0.5);
-height:50px;text-transform:normal;background-position:50%50%
+
+.par:hover{
+	max-height:30px;
+	transition: 10 s;
+	overflow:hidden;
+
 }
-.parag:hover{
-	visibility:hidden;
+
+.command:hover:after
+{
+	content:"don't stop until i fulfill my dream";
+	padding:30px;
+	margin:10px;
+	font-size:30px;
+   background-color:rgba(255,99,71,0.5);
+    transition:5s;
+	width:100%;
+	position:absolute;
 }
+     
+
 
 div.code{
 	background-image:url('sim1.jpg');
-	margin:30px auto;padding:80px;width:1200px;
-background-attachment:fixed;height:400px
-
+	margin:30px auto;
+	padding:80px;
+	width:1200px;
+	height:400px;
+background-attachment:fixed;
 }
 div.grand{
 	background-color:rgba(255,99,71,0.5);
-	margin:-15px auto;padding:60px;width:1100px;
-background-attachment:fixed;height:350px
+	margin:-15px auto;
+	padding:60px;
+	width:1100px;
+  background-attachment:fixed;
+  height:350px;
 }
-.parent div{margin-top:10px;padding-top:-10px;
+.parent {
+margin-top:-30px; 
+padding:10px;
+font-size:20px;
 text-align:left;
 
 }
@@ -78,11 +115,12 @@ text-align:left;
 }
 
 .child1{background:#a91378;
-height:50px;
+height:50px;margin:0px;font-size:20px;
 }
 .child{
 	background:#8ad87f;
 	height:50px;
+	font-size:20px;
 	
 }
 .min{
@@ -109,10 +147,18 @@ background-attachment:fixed;height:60px;
 }
 #about:hover {
 	left:0;
+	width:100px
 }
 #Blog:hover {
 	left:0;
+	width:100px
 }
 #projects:hover {
 	left:0;
+	width:100px;
+}
+
+* { 
+transition: 10 s;
+font-weight:arial
 }

@@ -1,0 +1,239 @@
+.header {
+	background-image:url('scr.jpg');
+	height:300PX;
+	text-align:center;
+}
+.container{
+	margin:auto;
+	width:1000px;
+}
+ .header .nabar h1 {
+	 font-size:20px;
+	  color:#fff;
+	    text-transform:capitalize;
+		padding-top:30px;
+		
+}
+ .header .nabar p {
+	 font-size:20px;
+	color:#fff;
+	    text-transform:capitalize;
+		padding-top:40px;
+}
+
+.text{
+	background:black;
+	width:100%;
+	margin:auto;
+    text-align:right;
+	color:#fff;
+	margin-top:-20px;
+}
+.text ul li{
+	display:inline-block;
+	padding:10px
+}
+.text1{
+	float:left;
+	color:blue;
+}
+
+.login{
+	
+	font-size:40px;
+}
+
+a{
+	text-decoration:none;
+	color:#fff;
+}
+a:hover{
+	background-color:#1ae59b;
+}
+
+.fea{
+	overflow:hidden;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.fea .feat{
+width:33%;
+height:150px;
+float:left;
+}
+.fea .feat h2{
+text-transform:capitalize;
+}
+.fea .feat p{
+		color:#6A6E71;
+		
+
+}
+.test{
+	text-align:center;
+	padding-bottom:20px;
+	background:#f7f4f8;
+	padding-top:30px;
+}
+.test q{
+	color:#888;
+	line-height:25px;
+}
+.test h3{
+	color#777;
+}
+.test ul{
+	list-style:none;text-align:center
+	}
+.test ul li{
+	display:inline-block; width:10px;height:10px;
+     border:2px solid #2DCC70;cursor:pointer; 
+	}
+.test ul li .active,
+.test ul li:hover{
+	background-color:#2DCC70;
+	}
+	
+.about{
+	background-color:#f2f2f2;
+	overflow:hidden;
+	padding-top:20px;
+}
+.about .image img{
+	width:100%;
+}
+.about .image{
+	float:left;
+	width:30%;
+}
+.about .info{
+	float:left;
+}
+.about .info p{
+	line-height:25px;
+	color:#6A6E71;
+margin-left:15px;
+}
+.about .info h3{margin-left:15px;color:#777
+}
+
+.imag {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.imag .work 
+{
+	overflow:hidden;
+}
+.imag .info h2{
+	padding:10px;
+	text-align:center;
+}
+.imag .info p{
+	padding:10px;
+	text-align:center;
+}
+
+.imag .work >div
+{
+
+	float:left;
+	width:33.33%;
+	margin-bottom:10px;
+}
+.imag .work >div img{width:93%;margin:10px;padding:3px;background-color:#fff;border:2px solid #CCC; box-shadow:10px 10px 10px #CCC}
+
+.imag .work .sin:hover{
+	background:rgba(0,0,0,0.2)
+}
+.contact {
+	background-color:#3e4b4c;
+    overflow:hidden;	
+}
+.contact h2{
+	color:#fff;
+}
+.contact p{
+	color:#6A6E71;
+}
+.contact .na,
+.contact .form{
+	width:50%;
+	float:left;
+		
+
+}
+.contact p strong
+{
+	color:#D106DA;
+}
+.contact .form label{
+	display:block;
+	color:#fff;
+	padding:10px;
+	margin-bottom:10px;
+	
+}
+.contact .form input[type="text"]{
+	background-color:#4B5557;
+	border:0;
+	width:90%;
+	padding:10px;
+}
+
+
+
+.myskills{
+	padding-top:20px;
+	padding-bottom:20px;
+	overflow:hidden;
+}
+.myskills .for p{
+	line-height:30px;
+		color:#6A6E71;
+
+}
+
+.myskills .for,
+.myskills .int {
+	width:50%;
+	float:left;
+	
+}
+.myskills .int .technique h3{
+	color:#555;
+	margin-left:30px;
+	
+}
+.myskills .for button{
+	border:3px solid #0eecc0;
+	padding:10px 30px;
+	margin-top:20px;
+	background:none;
+}
+
+.myskills .int .technique div{
+	background-color:#f2f2f2;
+	height:25px;
+	width:400px;
+}
+.myskills .int .technique div span{
+	background-color:#0eecc0;
+	display:block;
+	color:#fff;
+	height:25px;
+	line-height:25px;
+	text-align:right;
+}
+
+
+.text3{
+	background:black;
+	color:#6A6E71;
+	text-align:center;
+}
+
+.text3 ul li{
+	display:inline-block;
+padding:10px;
+}

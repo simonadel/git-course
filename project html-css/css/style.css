@@ -1,5 +1,5 @@
 .header {
-	background-image:url('scr.jpg');
+		background-image:url('../images/scr.jpg');
 	height:300PX;
 	text-align:center;
 }
@@ -9,17 +9,22 @@
 }
  .header .nabar h1 {
 	 font-size:20px;
-	  color:#fff;
+	  color:#ee82ee;
 	    text-transform:capitalize;
 		padding-top:30px;
 		
 }
  .header .nabar p {
 	 font-size:20px;
-	color:#fff;
+	color:#ee82ee;
 	    text-transform:capitalize;
 		padding-top:40px;
 }
+ .header .nabar button {
+	 padding:10px;
+	 border:2px solid #black;
+	 box-shadow:10px #CCC;
+ }
 
 .text{
 	background:black;
@@ -101,6 +106,7 @@ text-transform:capitalize;
 }
 .about .image img{
 	width:100%;
+	
 }
 .about .image{
 	float:left;
@@ -141,10 +147,13 @@ margin-left:15px;
 	width:33.33%;
 	margin-bottom:10px;
 }
-.imag .work >div img{width:93%;margin:10px;padding:3px;background-color:#fff;border:2px solid #CCC; box-shadow:10px 10px 10px #CCC}
+.imag .work >div img{width:93%;margin:10px;padding:3px;background-color:#fff;border:2px solid #CCC; box-shadow:10px 10px 10px #CCC;border-radius:50%}
 
 .imag .work .sin:hover{
-	background:rgba(0,0,0,0.2)
+	background:rgba(0,0,0,0.2);
+}
+.imag .work >div img:hover{
+		border-radius:0%;
 }
 .contact {
 	background-color:#3e4b4c;
@@ -202,7 +211,7 @@ margin-left:15px;
 }
 .myskills .int .technique h3{
 	color:#555;
-	margin-left:30px;
+	
 	
 }
 .myskills .for button{

@@ -1,23 +1,23 @@
 header{
-background:black;
-color:#fff;
-position:fixed;
-width:100%;
-display:block;
-text-align:right;
-padding-top:-10px;
-margin-top:-10px;
-padding-left:-10px;
-margin-left:-10px;
+ background:black;
+ color:#fff;
+ position:fixed;
+ width:100%;
+ display:block;
+ text-align:right;
+ padding-top:-10px;
+ margin-top:-10px;
+ padding-left:-10px;
+ margin-left:-10px;
 }
 .text1 {
-font-size:20px;
-background:#ee82ee;
-background-attachment:fixed;
-float:left;
-padding:5px; 
-margin:5px;
-list-style:none;
+  font-size:20px;
+  background:#ee82ee;
+ background-attachment:fixed;
+ float:left;
+ padding:5px; 
+ margin:5px;
+ list-style:none;
 }
 
 ul{
@@ -33,7 +33,7 @@ header ul li{
 }
 
 a:link {
-text-decoration: none;
+   text-decoration: none;
 }
 #about{background:red;position:fixed; 
 top:40px;left:-100px;font-weight:bold;
@@ -71,13 +71,13 @@ article{
 	margin:10px;
 }
  article section{
-	 margin-top:50px;padding:20px;
+	margin-top:50px;padding:20px;
    background-color:rgba(0,255,255,0.3);
    height:30px;
    text-transform:normal;
    width:95%;
-  padding-left:40px;
-  font-size:20px;
+   padding-left:40px;
+   font-size:20px;
  }
  div{
 	 font-size:20px;
@@ -105,8 +105,8 @@ article form input{
 }
  article .progress{
 	 margin:20px;font-size:20px;
-background-color:rgba(0,255,255,0.3);
-height:200px;text-transform:normal;
+     background-color:rgba(0,255,255,0.3);
+     height:200px;text-transform:normal;
  }
 footer{
 	text-align:center;

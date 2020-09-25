@@ -1,0 +1,146 @@
+header{
+ background:#777373;
+ color:#fff;
+ position:fixed;
+ width:100%;
+ padding-top:-20px;
+ margin-top:-20px;
+opacity: 0.8;
+}
+header:hover{
+	opacity: 1;
+}
+.about{
+
+	color:#fff;
+}
+.at {
+ font-size:20px;
+  background:#ee82ee;
+ background-attachment:fixed;
+ padding:5px; 
+ margin:5px;
+ list-style:none;
+}
+.as {
+float:right;
+color:#fff;
+}
+.at:hover{
+	color:red;
+}
+header input {
+float:right;
+}
+a:link{
+   text-decoration: none;
+   color:fff;
+}
+#about{background:#82976e;position:fixed; 
+top:40px;left:-120px;font-weight:bold;
+padding:22px;width:100px;margin:20px;
+color:#fff
+}
+#Blog{background:#73026a;position:fixed;
+top:100px;left:-120px;font-weight:bold;
+padding:22px;width:100px;margin:20px;
+color:#fff
+}
+#projects{background:blue;position:fixed;
+top:160px;left:-120px;font-weight:bold;
+padding:22px;width:100px;margin:20px;
+color:#fff
+}
+#about:hover {
+	left:0;
+	width:100px
+}
+#Blog:hover {
+	left:0;
+	width:100px
+	mhjhg:
+}
+#projects:hover {
+	left:0;
+	width:100px;
+}
+audio{
+	top:100px;
+	width:20px;
+	text-align:center;
+	left:600px;
+	position:absolute;
+	background:black;
+}
+source {
+	text-align:center;
+}
+ audio:hover{
+	width:500px;
+}
+ video {
+	    border-radius:50%;
+	    margin-left:200px;
+		margin-top:150px;
+		width:800px;
+		height:400px;
+		border:2px solid #CCC;
+		box-shadow:10px 10px 10px #CCC;
+}
+video:hover{
+	border-radius:0;
+}
+ source{
+	 	left:150px;
+		top:200px;
+ }
+ .work img{
+	margin:10px;
+	padding:3px;
+	background-color:#fff;
+	float:left;
+	width:31%;
+	height:250px;
+	margin-bottom:10px;
+	-webkit-border-radius:10px;
+	-webkit-transition:-webkit-transform 1s;
+	  opacity: 0.6;
+}
+
+.work img:hover{
+	  -webkit-transform:rotate(250deg);
+	    opacity: 1;
+}
+
+.bavar input{
+		display:block;
+		width:95%;
+       height:25px;
+	   border:2px solid black;
+	   padding:15px;
+	  margin:15px;
+	  background-color:#d3dbdb;
+}
+.bavar input:hover{
+	background-color:#0a556b;
+}
+
+.bavar label{
+		text-align:center;
+		font-size:20px;
+}
+
+ section  .int {
+	width:100px;
+	background:#fc56d7;
+    display:inline;
+    text-align:center;
+	
+}
+footer{
+	text-align:center;
+	font-size:15px;
+	background-color:#0a556b;
+	padding:10px;
+	margin:10px;
+}

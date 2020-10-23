@@ -1,0 +1,225 @@
+header{
+background-color: #333;
+ color:#fff;
+ width:100%;
+ margin-top:-30px;
+ padding-top:-30px;
+ list-style:none;
+ overflow: hidden;
+  text-align:right;
+}
+ ul li{
+	display:inline-block;
+		
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+      padding: 8px 8px;
+  text-decoration: none;
+}
+
+.at {
+ font-size:20px;
+  background:#ee82ee;
+ background-attachment:fixed;
+ list-style:none;
+ background-size:cover;
+}
+
+.at:hover{
+	color:red;
+}
+
+a:link{
+   text-decoration: none;
+   color:fff;
+    
+}
+li a:hover:not(.at) {
+  background-color: #111;
+}
+.switch {
+  position: relative;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+@media(max-width:800px){
+	.slider ul{
+		display:none;
+	}
+	
+	.switch{
+		display:block;
+		float:right;
+		margin-top:20px;
+
+	}
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+#about{background:#82976e;position:fixed; 
+top:60px;left:-120px;font-weight:bold;
+padding:22px;width:100px;margin:20px;
+color:#fff
+}
+#Blog{background:#73026a;position:fixed;
+top:120px;left:-120px;font-weight:bold;
+padding:22px;width:100px;margin:20px;
+color:#fff
+}
+#projects{background:blue;position:fixed;
+top:180px;left:-120px;font-weight:bold;
+padding:22px;width:100px;margin:20px;
+color:#fff
+}
+#about:hover {
+	left:0;
+	width:100px
+}
+#Blog:hover {
+	left:0;
+	width:100px
+	mhjhg:
+}
+#projects:hover {
+	left:0;
+	width:100px;
+}
+body{
+	perspective:500px;
+}
+@media only screen and (min-width:1000px) {
+	.media {
+	content:url('../images/naruto_2.png');
+	width:100%;
+	padding:0 100px;
+	height:95%;
+	display:block;
+		
+	}
+}
+@media only screen and (max-width:990px) {
+	
+	.media {
+	content:url('../images/ita.png');
+	width:100%;
+	padding:0 100px;
+	height:80%;
+	
+	}
+		
+}
+@media only screen and (max-width:600px) {
+	
+	.media {
+	content:url('../images/naruto.png');
+	width:100%;
+	padding:0 100px;
+	height:80%;
+
+	}
+		
+}
+.anmy{
+	content:url('../images/fanc4.png');
+	width:50%;
+	height:50%;
+	margin:50px auto;
+	 animation:rotate;
+   -webkit-transition:all 7s ease in-out;
+}
+.anmy:hover{
+ animation:rotate 2s infinite;
+}
+
+ @keyframes rotate{
+	
+
+	0%{
+		content:url('../images/fanc3.png');
+			transform:rotate(360deg);
+	}
+	
+	40%{
+		content:url('../images/fanc2.png');
+	   transform:rotate(720deg);
+	}
+	60%{
+		content:url('../images/fanc5.png');
+	   transform:rotate(1080deg);
+	}
+  80%{
+		content:url('../images/fanc4.png');
+	   transform:rotate(1440deg);
+	}
+   100%{
+		content:url('../images/fanc3.png');
+	   transform:rotate(1800deg);
+	}
+
+
+}
+.font{
+	  font-family: 'Barlow';
+       text-align:center;
+	   font-size:35px;
+	   padding:80px;
+}
+	@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Barlow Black Italic'), local('Barlow-BlackItalic'), url(https://fonts.gstatic.com/s/barlow/v5/7cHsv4kjgoGqM7E_CfO452ohvTobdw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+

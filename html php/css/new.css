@@ -1,0 +1,121 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight:bold;
+}
+.carousel-caption p{
+	font-size:22px;
+	color:#ddd;
+}
+
+nav a:hover
+{
+	background: #dce3e9;
+	color: #3c6378
+}
+
+#carouselExampleCaptions  button img:hover{
+	  transform: rotateY(130deg);
+	  border-radius:50%;
+
+}
+.carousel-inner{
+	
+	text-align:center;
+}
+#imag img,
+.card-body img{
+		-webkit-transition:all 2s;
+
+}
+#imag img:hover{
+	 animation:rotate 5s infinite;
+	-webkit-transform:scale(-.5) rotate(180deg);
+
+}
+.imago{
+	height:600px;
+	
+	width:100%;
+	}
+.imago img{
+         
+	padding:10px;
+	float:left;
+	-webkit-transition:all 2s;
+	opacity:0.7;
+	transition:opacity 2s ease;
+
+	
+ }
+ .imago img:hover{
+	 animation:rotate 5s infinite;
+	-webkit-transform: rotate(180deg);
+opacity:1;
+ }
+.card-body img:hover{
+	
+		 animation:rotate 5s infinite;
+  transform: rotatey(180deg);
+
+}
+.carousel-inner {
+	min-height:180px;
+	width:100%;
+	line-height:22px;
+}
+#carouselExampleCaptions {
+	
+margin-top:40px;
+
+}
+#carouselExampleCaptions .carousel-indicators button:hover{
+			  border-radius:50%;
+
+}
+#carouselExampleCaptions .carousel-indicators button{
+	
+
+	width:80px;
+	height:50px;
+	margin:5px;
+	margin-right:50px;
+		  border-radius:50%;
+
+	
+}
+#carouselExampleCaptions .carousel-indicators button img{
+	max-width:99%;
+	max-height:99%;
+	 border-radius:50%;
+}
+ul li{
+list-style-type:none;
+	    text-transform: none;
+
+}
+#si{
+	width:40px;
+	height:30px;
+	list-style:none;
+}
+footer{
+	background:#96a6ac;
+	padding:10px;
+	text-align:center;
+	font-size:20px;
+	margin-top:5px;
+}
+.tharw img:hover{
+	height:50px;
+	width:50px;
+}
+#exampleInputEmail1,
+#exampleInputPassword1,
+#inputAddress2,
+#inputCity
+{
+	height:30px;
+}

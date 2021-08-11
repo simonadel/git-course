@@ -5,6 +5,19 @@
 	box-sizing: border-box;
 	text-transform: capitalize;
 }
+.carousel-caption h1{
+	font-size:22px;
+	color:#ee82ee;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+	margin:50px;
+	width:10px;
+	background;-color:#ee82ee
+}
+.d-block w-100 {
+    width: 80%;
+}
 /*    start navbar  */
 nav
 {
@@ -35,9 +48,9 @@ nav .home
 nav a:hover
 {
 	background: #dce3e9;
-	color: #3c6378
+	color: #3c6378*/
 }
-/*    end navbar  */
+/*    end navbar  
 
 /*    start function div */
 .sim
